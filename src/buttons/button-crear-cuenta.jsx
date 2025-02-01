@@ -1,9 +1,19 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client"
 
-
-createRoot(document.getElementById('root')).render(
-  <StrictMode>
+// crear NombredeEseAlgo = () => {}
+const ButtonCrearCuenta = () => {
+  //Escribe tu codigo aqui
+  <>
+    <div>Aqui escribe el codigo...</div>
     <div>Crea una</div>
-  </StrictMode>,
-)
+  </>;
+};
+
+// Exportar el componente
+export default ButtonCrearCuenta;
+createRoot(document.getElementById("root")).render(
+  <StrictMode>
+    <ButtonCrearCuenta />
+  </StrictMode>
+);

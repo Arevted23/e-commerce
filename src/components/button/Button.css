@@ -19,10 +19,8 @@ width: 100%;
 .negro{
     background-color: black;
     color:white;
-
 }
 .space{
     justify-content: center;
-    display: flex;
-    background-color: black;
+    display: flex;   
 }

@@ -21,8 +21,8 @@ width: 100%;
     color:white;
 
 }
-.espace{
-    display:grid;
-    grid-template-columns: repeat(2,1fr);
+.space{
     justify-content: center;
+    display: flex;
+    background-color: black;
 }

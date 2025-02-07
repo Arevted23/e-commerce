@@ -1,0 +1,26 @@
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bigSpanMenu{
+    display: flex;
+    justify-content: space-between;
+    place-items: center;
+    gap: 1.5rem;
+}
+.spanLogo {
+  font-size: 15px;
+  color: #bfbfbf;
+}
+.greatUser {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+    color: #000;
+}
+
+/* this class is likely to be eliminated in the future. */
+.navigationMobile {
+    display: none;
+}
